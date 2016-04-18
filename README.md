@@ -1,0 +1,2 @@
+# jQPanels
+Some jQuery panels.
