@@ -1,6 +1,7 @@
 .tab-panels ul{
   margin: 0;
   padding: 0;
+  height: 100%;
 }
 
 .tab-panels ul li{
@@ -22,16 +23,18 @@
 
 .tab-panels ul li.active{
   color:#fff;
-  background: #666;
 }
 
 .tab-panels .panel{
+  width: 50%;
+  height: 100%;
   display: none;
-  background: #C9C9C9;
+  color:#fff;
+  
   padding: 30px;
-  border-radius: 0 0 10px 10px;
 }
 
 .tab-panels .panel.active{
   display: block;
+
 }
